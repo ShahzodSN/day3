@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/normaliza.css">
     <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="style/vh.css">
     <link rel="stylesheet" href="./style/style.css">
     <title>day3</title>
 </head>
@@ -52,7 +53,33 @@
         </div> <!-- end of header-top -->
 
         <div class="header-bottom">
-            <div class="header-bottom__container"></div>
+            <div class="header-bottom__container container">
+                <a href="index.html" class="logo">
+                    <img class="logo__image" src="./image/logo.svg" width="217" height="50" alt="">
+                </a>
+
+                <div class="header-bottom__wrapper">
+                    <nav class="nav">
+                        <a href="#" class="nav__link nav__link--active">Home +</a>
+                        <a href="#" class="nav__link">About +</a>
+                        <a href="#" class="nav__link">Shop +</a>
+                        <a href="#" class="nav__link">Page +</a>
+                        <a href="#" class="nav__link">Contact</a>
+                    </nav>
+    
+                    <a href="#" class="login-btn">Login</a>
+    
+                    <button class="search-btn">
+                        <span class="visually-hidden">Search</span>
+                    </button>
+    
+                    <button class="basket">
+                        <span class="visually-hidden">Basket</span>
+                        <img class="basket__image" src="./image/korzinka.svg" width="13" height="10" alt="">
+                        <span class="basket__counter">1</span>
+                    </button>
+                </div>
+            </div>
         </div> <!-- end of header-bottom -->
     </header> <!-- end of header -->
 </body>
